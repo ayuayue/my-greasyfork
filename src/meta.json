@@ -1,0 +1,29 @@
+{
+  "@include": "*",
+  "@run-at": "document-end",
+  "@require": [
+    "https://code.jquery.com/jquery-3.6.0.min.js"
+  ],
+  "@name": "Quick-Tools",
+  "@description": "some web tools.",
+  "@version": "0.1",
+  "@namespace": "https://gitee.com/caoayu/my-greasyfork",
+  "@author": "caoayu",
+  "@homepageURL": "https://immersive-translate.owenyoung.com/",
+  "@supportURL": " https://github.com/immersive-translate/immersive-translate/",
+  "@match": "*://*/*",
+  "@icon": " https://www.google.com/s2/favicons?sz=64&domain=userscript.net",
+  "@downloadURL": "https://gitee.com/caoayu/my-greasyfork/raw/master/tools.js",
+  "@updateURL": "https://gitee.com/caoayu/my-greasyfork/raw/master/tools.js",
+  "@inject-into": "content",
+  "@license": "AGPL-3.0-or-later",
+  "@name:zh-CN": "网页助手",
+  "@description:zh-CN": "网页自由编辑、密码显示等。",
+  "@grant" : [
+    "GM_setValue",
+    "GM_getValue",
+    "GM_unregisterMenuCommand",
+    "GM_registerMenuCommand",
+    "unsafeWindow"
+  ]
+}
