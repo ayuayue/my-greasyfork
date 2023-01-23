@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name                 Quick-Tools
 // @namespace            https://gitee.com/caoayu/my-greasyfork
-// @version              0.1
+// @version              0.2
 // @author               caoayu
 // @description          some web tools.
 // @icon                  https://www.google.com/s2/favicons?sz=64&domain=userscript.net
@@ -39,7 +39,7 @@
     });
   }
   function ShowPasswd() {
-    GM_registerMenuCommand("「显示」网页*号密码", function () {
+    GM_registerMenuCommand("显示网页*号密码", function () {
       for (var t = document.getElementsByTagName("input"), e = 0; e < t.length; e++) {
         "password" === t[e].getAttribute("type") && t[e].setAttribute("type", "text");
       }

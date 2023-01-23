@@ -10,7 +10,7 @@ export function DocEdit() {
   });
 }
 export function ShowPasswd() {
-  GM_registerMenuCommand("「显示」网页*号密码", function () {
+  GM_registerMenuCommand("显示网页*号密码", function () {
     for (
       var t = document.getElementsByTagName("input"), e = 0;
       e < t.length;
