@@ -1,6 +1,5 @@
 export function DocEdit() {
   GM_registerMenuCommand("开启/关闭网页自由编辑", function () {
-    GM_log(GM_getValue("isEdit"));
     if (GM_getValue("isEdit") === "true") {
       document.body.contentEditable = "false";
       GM_setValue("isEdit", "false");
